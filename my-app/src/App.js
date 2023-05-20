@@ -6,12 +6,13 @@ const App = () => {
     <div className="app">
       <div className="column">
         <h2 className="header">Backend Application 1</h2>
-        <iframe src="http://18.191.212.145/" title="Backend Application 1" className="iframe" />
+        <h3>Student_List</h3>
+        <iframe src="http://api-1-ip" title="Backend Application 1" className="iframe" />
       </div>
 
       <div className="column">
         <h2 className="header">Backend Application 2</h2>
-        <iframe src="http://18.221.249.120/" title="Backend Application 2" className="iframe" />
+        <iframe src="http://api-2-ip" title="Backend Application 2" className="iframe" />
       </div>
     </div>
   );

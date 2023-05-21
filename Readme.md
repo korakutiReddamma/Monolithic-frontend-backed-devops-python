@@ -4,11 +4,14 @@ Monolithic Application
 install packages:
 ------------------
 
-1.yum install python3 
-2.yum install python3-pip 
+
+1.yum install python3 -y
+2.yum install python3-pip -y
 3.pip install flask 
-4.dnf install mariadb105-server -y 
-5.pip install mysql-connector-python
+4.dnf install mariadb105-server -y
+5.pip install mysql-connector-python 
+6.pip install gunicorn
+7.pip install boto3
 
 a.mysql -h host -u username -p
      Host : rds endpoint
@@ -17,11 +20,11 @@ a.mysql -h host -u username -p
 b.use database name
 
 Frontend:
-    Yum install nodejs
-    npx create-react-app my-app
-    npm start
+    1.Yum install nodejs
+    2.npx create-react-app my-app
+    3.npm start
 
-    
+
 
 This repository contains a monolithic application that consists of two backend applications and one frontend application. This README file provides an overview of the monolithic application and instructions for setting it up and running.
 

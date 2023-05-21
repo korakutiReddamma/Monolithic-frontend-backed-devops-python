@@ -6,7 +6,13 @@ Introduction The monolithic application is a software system where two backend a
 
 Features The monolithic application provides the following features:
 
-User authentication and authorization across both backend applications Backend application 1: CRUD (Create, Read, Update, Delete) operations for specific data entities Integration with external APIs for data retrieval Backend application 2: Real-time data processing and analytics Integration with external services for data enrichment Frontend application: User interface for interacting with the backend applications Dashboard for visualizing data and analytics
+User authentication and authorization across both backend applications Backend application 
+
+1: CRUD (Create, Read, Update, Delete) operations for specific data entities Integration with external APIs for data retrieval Backend application.
+
+2: Real-time data processing and analytics Integration with external services for data enrichment.
+
+ Frontend application: User interface for interacting with the backend applications Dashboard for visualizing data and analytics
 
 Backend Applications The monolithic application includes the following backend applications:
 
@@ -26,9 +32,16 @@ Performs real-time data processing and analytics for the monolithic application.
 
 Frontend Application The monolithic application includes a frontend application:
 
-Frontend Application: Description: Provides the user interface for interacting with the monolithic application and visualizing data and analytics. Technologies: we have used reactjs and html
+Frontend Application: 
+=======================
 
-Aws services involved : Rds-----for data storage secret manager-------to store the credentials of db ec2------to run the applications iam----gives permissions to get the creds from secret manager
+Description:
+
+Provides the user interface for interacting with the monolithic application and visualizing data and analytics. Technologies: we have used reactjs and html
+
+Aws services involved : 
+
+Rds-----for data storage secret manager-------to store the credentials of db ec2------to run the applications iam----gives permissions to get the creds from secret manager
 
 Setup To set up and run the monolithic application, follow these steps:
 

@@ -1,5 +1,28 @@
 Monolithic Application
 =======================
+
+install packages:
+------------------
+
+1.yum install python3 
+2.yum install python3-pip 
+3.pip install flask 
+4.dnf install mariadb105-server -y 
+5.pip install mysql-connector-python
+
+a.mysql -h host -u username -p
+     Host : rds endpoint
+     Username : master database name
+      
+b.use database name
+
+Frontend:
+    Yum install nodejs
+    npx create-react-app my-app
+    npm start
+
+    
+
 This repository contains a monolithic application that consists of two backend applications and one frontend application. This README file provides an overview of the monolithic application and instructions for setting it up and running.
 
 Introduction The monolithic application is a software system where two backend applications and one frontend application are combined into a single deployment unit. This architectural style allows for easier development, deployment, and maintenance as all components are tightly integrated.
